@@ -19,9 +19,17 @@
 - Distributed Tracing
 - Service Mesh
 
-## Seções das Transcrições
+## Capítulos
 
-### Introdução a Microsserviços
+| # | Transcrição | Resumo |
+|---|-------------|--------|
+| 1 | [1 - Introdução a Microsserviços](./transcricoes/1%20-%20Introdução%20a%20Microsserviços.md) | `resumos/` (a gerar) |
+| 2 | [2 - Explorando a Arquitetura](./transcricoes/2%20-%20Explorando%20a%20Arquitetura.md) | `resumos/` (a gerar) |
+| 3 | [3 - Tracing](./transcricoes/3%20-%20Tracing.md) | `resumos/` (a gerar) |
+
+## Seções por capítulo
+
+### Capítulo 1 — Introdução a Microsserviços
 - Introdução
 - Sistemas Monolíticos
 - O que são Microsserviços
@@ -32,7 +40,7 @@
 - Quando optar por monolitos
 - Provocação sobre microsserviços
 
-### Explorando a Arquitetura
+### Capítulo 2 — Explorando a Arquitetura
 - Monolito clássico
 - Twelve Factor App
 - Arquitetura baseada em Microsserviços
@@ -40,13 +48,11 @@
 - Coreografia vs Death Star
 - Topologia de microsserviços
 
-## Arquivos
-
-| Arquivo | Tipo | Descrição |
-|---------|------|-----------|
-| [transcricoes/completo.md](./transcricoes/completo.md) | Transcrição | Transcrição completa de todas as aulas |
+### Capítulo 3 — Tracing
+- Observabilidade distribuída
+- Distributed Tracing
 
 ## Resumos
 
 > Resumos estruturados serão gerados com Claude Code e salvos em `resumos/`.
-> Use: `"Leia transcricoes/completo.md e gere um resumo de ## Sistemas Monolíticos"`
+> Exemplo: `"Leia transcricoes/1 - Introdução a Microsserviços.md e gere o resumo"`
